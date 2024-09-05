@@ -1,0 +1,39 @@
+.modal {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(102, 102, 226);
+    margin: 0 auto;
+    transform: translateY(-900px);
+    scale: 0;
+    transition: 1s ease-out;
+    border-radius: 10px;
+}
+
+.modal-active {
+    transform: translateY(70%);
+    scale: 1;
+    transition: 1s ease-out;    
+}
+.modal-body {
+    color: white;
+    text-align: center;
+
+}
+
+.js-modal-openBtn {
+    margin-left: 48%;
+    border: none;
+    background-color: green;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.js-modal-closeBtn {
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin-left: 80%;
+    font-size: 15px;
+}
